@@ -6,7 +6,7 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
 
     if (true) {
-        alerts.textContent = "nIcE yOuR nOt A bOt!"
+        alert("nIcE yOuR nOt A bOt!");
     }
 
 })
