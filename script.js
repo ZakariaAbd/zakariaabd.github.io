@@ -1,12 +1,9 @@
-const form = document.getElementById('form');
+const btn = document.getElementById('bruh');
 const input = document.getElementById('input');
 const alerts = document.getElementById('alerts');
 
-form.addEventListener('submit', function (e) {
-    e.preventDefault();
-
+btn.addEventListener('click', function () {
     if (true) {
         alert("nIcE yOuR nOt A bOt!");
     }
-
 })
