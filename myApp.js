@@ -21,7 +21,13 @@ app.get("/", function(req, res) {
 
 // --> 11)  Mount the body-parser middleware  here
 // Normal usage
+
+app.use(bodyParser.urlencoded({ extended: false }))
+
 app.use(express.static(__dirname + "/public"));
+
+
+
 
 // Assets at the /assets route
 app.use("/assets", express.static(__dirname + "/public"));
