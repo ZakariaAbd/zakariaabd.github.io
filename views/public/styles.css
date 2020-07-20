@@ -14,3 +14,8 @@ body {
   input[type=text], label {
     margin-bottom: 8px;
   }
+
+  input[type=text] {
+    width: 200px;
+    border-radius: 10px;
+  }
