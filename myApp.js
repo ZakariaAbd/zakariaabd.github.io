@@ -97,18 +97,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // but to allow FCC to run tests, the server is already active
 /** app.listen(process.env.PORT || 3000 ); */
 
-function createAddItemWindow() {
-//Create new window
-addItemWindown = new BrowserWindow({
-    width: 300,
-    height: 200,
-    title: 'Add Item',
 
-    //The lines below solved the issue
-    webPreferences: {
-        nodeIntegration: true
-    }
-})}
 
 //---------- DO NOT EDIT BELOW THIS LINE --------------------
 
